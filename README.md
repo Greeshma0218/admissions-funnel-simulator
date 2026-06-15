@@ -2,7 +2,7 @@
 
 > An interactive, browser-based tool that reverse-engineers your enrollment pipeline — from enrollment goal to top-of-funnel inquiry need — using configurable yield rates and what-if analysis.
 
-**Live demo →** [your-username.github.io/admissions-funnel-simulator](https://your-username.github.io/admissions-funnel-simulator)
+**Live demo →** [your-username.github.io/admissions-funnel-simulator](https://Greeshma0218.github.io/admissions-funnel-simulator)
 
 ---
 
