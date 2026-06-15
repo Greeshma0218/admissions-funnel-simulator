@@ -73,6 +73,42 @@ All values round up (`ceil`) because you can't admit half a student.
 
 ---
 
+## How to use
+
+### Step 1 — Set your enrollment goal
+Type your target class size in the **Enrollment goal** box (top-right corner). The entire funnel recalculates from this number instantly.
+
+> Example: Enter `400` to model a class of 400 enrolled students.
+
+### Step 2 — Choose a preset (optional)
+Click any preset button to load realistic benchmark yield rates for your institution type. Great for quick exploration before dialing in your real numbers.
+
+### Step 3 — Drag the yield rate sliders
+Each slider controls the conversion rate between stages. Drag left to lower, right to raise — all numbers update in real time.
+
+- **Inquiry → Application** — what % of inquiries submit an application
+- **Application → Admit** — your admit/acceptance rate
+- **Admit → Deposit** — yield rate (how many admitted students commit)
+- **Deposit → Enroll** — how many deposited students actually show up
+
+> Tip: Use your institution's actual historical rates for the most accurate pipeline estimate.
+
+### Step 4 — Read the pipeline results
+The right panel shows exactly how many students you need at each stage to hit your goal. The insight box at the bottom auto-identifies your tightest conversion stage.
+
+### Step 5 — Run a what-if scenario
+Click **What-if mode** at the top. A second set of sliders appears. Adjust any rate to model a change — each funnel stage shows a green/red delta badge vs your base scenario.
+
+> Try this: Lower "Admit → Deposit" by 5% to see how many more inquiries you'd need to compensate.
+
+### Step 6 — Read the delta badges
+- 🟢 Green = more students needed at that stage in the what-if scenario
+- 🔴 Red = fewer students needed (yield improved)
+
+> **Pro tip:** Run this before your enrollment committee meeting. Model a 3–5% yield drop and walk in knowing exactly how many additional inquiries your team needs to stay on goal.
+
+---
+
 ## College presets
 
 | Preset | Goal | Inq→App | App→Admit | Admit→Dep | Dep→Enroll |
