@@ -2,7 +2,7 @@
 
 > An interactive, browser-based tool that reverse-engineers your enrollment pipeline — from enrollment goal to top-of-funnel inquiry need — using configurable yield rates and what-if analysis.
 
-**Live demo →** [your-username.github.io/admissions-funnel-simulator](https://Greeshma0218.github.io/admissions-funnel-simulator)
+**Live demo →** [greeshma0218.github.io/admissions-funnel-simulator](https://greeshma0218.github.io/admissions-funnel-simulator)
 
 ---
 
@@ -25,51 +25,6 @@ This tool answers that question in real time — no spreadsheet, no SQL, no wait
 - **Insight summary** — auto-generated plain-English takeaway identifying your bottleneck stage
 - **Bar chart** — visual breakdown with overlay in what-if mode
 - **No backend, no login, no data leaves your browser** — pure HTML/CSS/JS
-
----
-
-## Tech stack
-
-| Layer | Technology |
-|-------|-----------|
-| UI | Vanilla HTML + CSS (no framework) |
-| Charts | Chart.js 4.4 |
-| Fonts | Google Fonts — Inter + Space Grotesk |
-| Hosting | GitHub Pages |
-| Dependencies | Zero npm packages |
-
----
-
-## Getting started
-
-### Option 1 — Open locally
-```bash
-git clone https://github.com/YOUR-USERNAME/admissions-funnel-simulator.git
-cd admissions-funnel-simulator
-open index.html   # or double-click it in Finder/Explorer
-```
-
-### Option 2 — GitHub Pages (free hosting)
-1. Fork this repo
-2. Go to **Settings → Pages**
-3. Set source to `main` branch, `/ (root)`
-4. Your simulator is live at `https://YOUR-USERNAME.github.io/admissions-funnel-simulator`
-
----
-
-## How the math works
-
-The simulator works backwards from your enrollment goal:
-
-```
-Enrolled  = Goal
-Deposited = ceil(Enrolled  / deposit_yield)
-Admitted  = ceil(Deposited / admit_yield)
-Applied   = ceil(Admitted  / app_yield)
-Inquiries = ceil(Applied   / inquiry_yield)
-```
-
-All values round up (`ceil`) because you can't admit half a student.
 
 ---
 
@@ -109,6 +64,35 @@ Click **What-if mode** at the top. A second set of sliders appears. Adjust any r
 
 ---
 
+## Tech stack
+
+| Layer | Technology |
+|-------|-----------|
+| UI | Vanilla HTML + CSS (no framework) |
+| Charts | Chart.js 4.4 |
+| Fonts | Google Fonts — Inter + Space Grotesk |
+| Hosting | GitHub Pages |
+| Dependencies | Zero npm packages |
+
+---
+
+## Getting started
+
+### Option 1 — Open locally
+```bash
+git clone https://github.com/Greeshma0218/admissions-funnel-simulator.git
+cd admissions-funnel-simulator
+open index.html
+```
+
+### Option 2 — GitHub Pages (free hosting)
+1. Fork this repo
+2. Go to **Settings → Pages**
+3. Set source to `main` branch, `/ (root)`
+4. Your simulator is live at `https://YOUR-USERNAME.github.io/admissions-funnel-simulator`
+
+---
+
 ## College presets
 
 | Preset | Goal | Inq→App | App→Admit | Admit→Dep | Dep→Enroll |
@@ -125,8 +109,6 @@ Presets are illustrative benchmarks, not official NACAC data.
 ## Built by
 
 **Greeshma** — Business Systems Analyst in Enrollment Management, Slate CRM admin, Power BI developer, and data science graduate student.
-
-This project is part of a portfolio of open-source higher ed analytics tools. If you work in admissions operations or enrollment management and find this useful, feel free to fork it, adapt it, or reach out.
 
 ---
 
